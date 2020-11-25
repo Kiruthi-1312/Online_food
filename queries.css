@@ -1,16 +1,28 @@
+@media only screen and (min-width: 1200px){
+#btn1{
+		margin-left:30%;
+	}
+}
 @media only screen and (max-width: 1200px){
 	.bg-text-box{
 	width: 100%;
-	padding: 0 2%;
+	padding: 0% 2%;
 }
 .row{padding:0 2%;}
+#btn1{
+		margin-left:20%;
+	}
 }
 @media only screen and (max-width:1023px){
 	body{font-size:18px;}
 	section{padding: 60px 0;}
 	.long-para{
-		width: 80%;
+		width: 70%;
 		margin-left: 10%;
+		margin-right:auto;
+	}
+	#btn1{
+		margin-left:20%;
 	}
 	.steps-box{margin-top:10px;}
 	.steps-box{margin-top:10px;}
@@ -37,6 +49,9 @@
 	.row,.bg-text-box{
 		padding: 0 4%;
 	}
+	#btn1{
+		margin-left:15%;
+	}
 	.col{
 		width:100%;
 		margin:2% 0%;
@@ -60,7 +75,7 @@
 	.main-nav li a:visited{
 		display: block;
 		border: 0;
-		padding:10px 0;
+		padding:5px 0;
 		font-size:100%;
 	}
     .sticky .main-nav li a:link,
@@ -91,7 +106,49 @@
 .app-screen{width:100%;}
 }
 @media only screen and (max-width: 480px){
-	.bg-text a{padding-top:-px;}
-	section{padding: 25px 0;}
+	.bg-text-box a{
+		padding:5px;
+		margin-top:15px;
+	}
+	#btn2{
+		padding:10px 35px;
+		margin-left:12%;
+		margin-top: 5%;
+	}
+	#btn3{
+		width: 55%;
+	}
+	section{padding: 20px 0;}
 	.contact-form{width:100%;}
+	.main-nav {
+	margin-top:-50px;
+}
+.i{
+	margin-top:-10px;
+}
+nav{
+	width:100%;
+}
+	.main-nav li a:link,
+	.main-nav li a:visited{
+		
+		border: 0;
+		margin:0;
+		padding:5px 0;
+		font-size:100%;
+	}
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited{
+    	display:block;
+		border: 0;
+    	padding:45px 0px;
+    	font-size: 60%;
+    }
+    .sticky{
+    	padding:15px;
+    }
+    .sticky .mobile-nav-icon .i{
+    	color:#000;
+    	font-size: 150%;
+    }
 }
